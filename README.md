@@ -4,12 +4,22 @@ The analyzer has to build a table that shows the occurrences of the words that a
 
 
 contextword1
+
+
 queryword1, occurrence
+
+
 queryword2, occurrence
 
 
+
+
 contextword2
+
+
 queryword1, occurrence
+
+
 queryword2, occurrence
 
 ## Example 
@@ -19,5 +29,4 @@ Text: “Mr. Bingley was good-looking and gentlemanlike; he had a pleasant count
 
 For the word Bingley, “and” appears twice and “gentlemanlike” appears once. In this calculation, we say Bingley is a ‘contextword’; “and” and “gentlemanlike” are ‘query- words’. The other example: for the contextword and, “pleasant” appears once, “and” appears once (not zero times or twice).
 
-NOTE:
-* Any character other than a-z, A-Z, or 0-9 should be replaced by a single-space character
+NOTE: Any character other than a-z, A-Z, or 0-9 should be replaced by a single-space character
